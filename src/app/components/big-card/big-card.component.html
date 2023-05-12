@@ -2,19 +2,23 @@
 
   <div class="big-card__photo">
     <img
-    src="assets\copa.jpg"
-    alt=""
-    height="265px"
-  >
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+    >
   </div>
-
-  <a href=""></a>
 
   <div class="big-card__title">
-    <h1><a href="#">Viagem a copacabana</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
+
   <div class="big-card__description">
-    <p><a href="#">Lorem ipsum dolor sit amet, consecsed justo. ue, maximus ut iaculis porttitor, sagittis non n pellentesque vitae varius in, egestas sed sapien. Curabitur eu varius urna. Suspendisse quis porta tellus. Pellentesque at eleifend sapien, tempor egestas felis. Integer velit est, mattis id vestibulum eget, finibus at neque. Mauris dapibus facilisis felis, sit amet tristique elit pellentesque vel. In hac habitasse platea dictumst. Cras sagittis erat nec tellus tempus, in interdum dolor ullamcorper. Sed id ante scelerisque, posuere neque vitae, laoreet erat. Cras aliquet lorem eget augue hendrerit vestibulum eget vel dolor.
-      Morbi hendrerit fringilla diam, ac maximus elit placerat sit amet.</a></p>
+    <p>
+      <a [routerLink]="['content', Id]">
+          {{ cardDescription }}
+      </a>
+    </p>
   </div>
+
 </div>
