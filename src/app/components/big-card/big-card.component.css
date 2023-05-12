@@ -1,12 +1,12 @@
 .container__big-card{
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 100px;
   width: 400px;
-  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+
 }
 .container__title > h1 {
   margin-top: 15px;
@@ -22,4 +22,9 @@
 .container__photo > img {
   width: 100%;
   min-width: 400px;
+  border: 2px solid white
+}
+
+.big-card__photo img:hover {
+  border-color: blue; /* Cor da borda ao passar o mouse */
 }
