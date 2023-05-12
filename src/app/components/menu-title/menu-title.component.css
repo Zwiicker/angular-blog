@@ -1,0 +1,17 @@
+.container__menu-title{
+  background-color: #344798;
+}
+.container__menu-title > img{
+  width: 800px;
+  display: flex;
+  margin: auto;
+  border: 5px solid #009fc3;
+  border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px 50px 50px 50px;
+}
+
+.container__menu-title > hr{
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
