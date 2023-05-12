@@ -2,10 +2,10 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: white;
   color:white;
   background-color: black;
-  font-family: 'Segoe UI';
+  font-family: 'Roboto', sans-serif;
+
 }
 
 a{

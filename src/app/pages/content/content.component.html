@@ -1,19 +1,15 @@
 <div class="container__content">
-  <div class="content__cover">
-    <img src="{{ photoCover }}" alt="" srcset="">
-  </div>
   <div class="content__title">
     <h1>{{ contentTitle }}</h1>
-    <hr />
   </div>
   <div class="content__description">
-    <a [routerLink]="['']"> << VOLTAR </a>
-    <p>
-      {{ contentDescription }}
-    </p>
-    <p>
-      {{ estreia }}
-    </p>
+    <a href="/"> << VOLTAR </a>
+    <br>
+    <p>{{ contentDescription }}</p>
+    <p>{{ genero }}</p>
+    <hr />
+    <h2>{{ estreia }}</h2>
+    <br>
     <iframe width="560" height="315" [src]="videoUrl" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
