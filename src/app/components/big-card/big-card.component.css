@@ -25,6 +25,24 @@
   border: 2px solid white
 }
 
-.big-card__photo img:hover {
-  border-color: blue; /* Cor da borda ao passar o mouse */
+.big-card__photo {
+  position: relative;
+}
+ .big-card__photo:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(147, 142, 142, 0.5);
+  z-index: 1;
+}
+ .big-card__photo:hover img {
+  opacity: 0.5;
+}
+ .big-card__photo img {
+  transition: opacity 0.2s ease-in-out;
+  z-index: 2;
 }

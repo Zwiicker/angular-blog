@@ -14,3 +14,7 @@ button {
   border: none;
   border-radius: 1rem;
 }
+
+.articles__others {
+  font-size: 13px;
+}
